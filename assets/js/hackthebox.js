@@ -1,0 +1,1 @@
+src="https://www.hackthebox.eu/badge/288729"
