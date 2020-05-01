@@ -1,21 +1,26 @@
 @import 'ext/solarized-light';
 
-div.highlighter-rouge {
-	width: 75vw;
-	position: relative;
-	right: 150px;
-	margin: 40px 0;
+@media only screen and (min-width: 1000px) {
+	div.highlighter-rouge {
+		width: 75vw;
+		position: relative;
+		right: 150px;
+		margin: 40px 0;
+	}
 }
 
 .highlight {
 	background-color: #f4f4f4;
 }
 
-div.highlight {
-	border-radius: 25px;
-	padding: 10px 30px;
-	margin-left: 120px;
+@media only screen and (min-width: 1000px) {
+	div.highlight {
+		border-radius: 25px;
+		padding: 10px 30px;
+		margin-left: 120px;
+	}
 }
+
 
 pre.highlight, code {
 	font-family: 'Consolas', Menlo, monospace;

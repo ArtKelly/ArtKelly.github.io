@@ -28,19 +28,19 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: art1kelly
 github_username:  ArtKelly
+permalink: none
 
 texture:
   title: Art Kelly
   tagline: Computer Science Student at the university of Sheffield
   date_format: "%b %-d, %Y"
   style: black
-  showNav: false
-  showPicker: false
+  showNav: true
   social_links:
     twitter: art1kelly
     github:  ArtKelly
     linkedIn: in/art-kelly-aba385184
-    
+
 kramdown:
   syntax_highlighter_opts:
     default_lang: plaintext
