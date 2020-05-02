@@ -59,18 +59,22 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
 ```
 
 Upon visiting the page we see the default Apache2 page
-![Apache2 Ubuntu default page](https://i.imgur.com/vMQF62P.png)
+![Apache2 Ubuntu default page](../assets/images/openadmin/apache.png)
 
 Upon navigating to http://10.10.10.171/music we get to the website advertising a music streaming service 
-![navigated to /music](https://i.imgur.com/rPIYlte.png)
+![navigated to /music](../assets/images/openadmin/music.png)
 
 clicking around on the page, clicking on login takes me to a strange redirect.
-![redirect after clicking login](https://i.imgur.com/LbzcE9h.png)
+![redirect after clicking login](../assets/images/openadmin/ona.png)
 
+Looks like OpenNetAdmin is outdated so ill serach on exploitDB to see if there is anything we can use
+![ExploitDB search](../assets/images/openadmin/exploitsearch.png)
 
 ## Exploit
 
-![](https://i.imgur.com/m9MQvNE.png)
+From the two results in ExploitDB, I'm going to choose to use the remote code execution vulnerability. Lets take a look at that below.
+
+![Exploit header](../assets/images/openadmin/exploitheader.png)
 
 
 ```bash
