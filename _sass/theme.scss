@@ -113,6 +113,10 @@ header {
 		right: 150px;
 	}
 
+	code.highlighter-rouge {
+		overflow-wrap: break-word;
+	}
+
 	@media screen and  (max-width: $mobileWidth) {
 		margin:0 15px; 
 		div.highlighter-rouge {
